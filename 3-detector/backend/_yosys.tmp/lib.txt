@@ -1,0 +1,6 @@
+/vlsi/tech/nangate45/lib/NangateOpenCellLibrary_typical.lib
+enfasi/enfasi.lib
+iir/iir.lib
+/vlsi/tech/nangate45/lib/NangateOpenCellLibrary_typical.lib
+iir/iir.lib
+enfasi/enfasi.lib

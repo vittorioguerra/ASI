@@ -1,0 +1,28 @@
+Module name: top 
+Startpoint: clk (clock source 'my_clock')
+Endpoint: blocco3.fsm.stato_corrente[2]$_SDFF_PP0_
+          (rising edge-triggered flip-flop clocked by my_clock)
+Path Group: my_clock
+Path Type: max
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   5.000    5.000   clock my_clock (fall edge)
+   0.154    5.154   clock network delay
+            5.154 v blocco3.fsm.stato_corrente[2]$_SDFF_PP0_/D (DFF_X1)
+            5.154   data arrival time
+
+  10.000   10.000   clock my_clock (rise edge)
+   0.000   10.000   clock network delay (ideal)
+  -0.100    9.900   clock uncertainty
+   0.000    9.900   clock reconvergence pessimism
+            9.900 ^ blocco3.fsm.stato_corrente[2]$_SDFF_PP0_/CK (DFF_X1)
+  -0.027    9.873   library setup time
+            9.873   data required time
+-----------------------------------------------------------
+            9.873   data required time
+           -5.154   data arrival time
+-----------------------------------------------------------
+            4.719   slack (MET)
+
+

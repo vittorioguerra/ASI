@@ -1,0 +1,29 @@
+
+=== top ===
+
+   Number of wires:                169
+   Number of wire bits:            179
+   Number of public wires:          44
+   Number of public wire bits:      54
+   Number of ports:                  6
+   Number of port bits:             16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                128
+     AOI21_X1                       12
+     DFF_X1                         15
+     INV_X1                         36
+     NAND2_X1                       32
+     NAND3_X1                        7
+     NOR2_X1                         1
+     OAI211_X1                       1
+     OAI21_X1                       18
+     OAI22_X1                        4
+     enfasi                          1
+     iir                             1
+
+   Chip area for module '\top': 12133.037000
+     of which used for sequential elements: 67.830000 (0.56%)
+
+
